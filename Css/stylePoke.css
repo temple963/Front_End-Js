@@ -1,0 +1,338 @@
+:root{
+    --azul:#2848c6;
+    --Blanco:#ffffff;
+    --Amarillo:#FFF653;
+    --Rositafresita:#DB5461;
+    --Gris:#5D576B;
+    --Marino:#181C6C;
+    --background:#F9F9FD;
+    --backgraoundred:#CE1131;
+
+   
+    
+}
+/*Always*/
+html {
+    box-sizing: border-box; /* Snipet caja de border*/
+    font-size: 62.5%;       /* font en Rem*/
+  
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* Globales */
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+       
+}
+
+.Contenedor{
+    max-width: 100rem;
+    margin: 0 auto;
+    background-color: #CE1131;
+}
+
+
+.Header{
+    display: flex;
+ 
+    background-color: #CE1131;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    gap: 10rem;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+.Button{
+    background-image: linear-gradient(to right, red , yellow);
+    border-radius: 2rem;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#0F1FC5;
+
+}
+.Contenedor_Buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly
+}
+.pokeName{
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    border-radius: 2rem;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#0F1FC5;
+}
+
+.Circle{
+    width: 10rem;
+    height: 10rem;
+    background-color:var(--Blanco);
+    border-radius: 50%; 
+  
+  
+}
+
+
+.Circle-Blue{
+    position: relative;
+    width: 9rem;
+    height: 9rem;
+    background-color: #009DD4;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+}
+
+.Circle-Blue-Clare{
+   background-color:  #0BCDFF;
+   width: 6rem;
+   height: 6rem;
+   border-radius: 50%;
+   position: relative;
+   top: 0px;
+   left: 13px;
+}
+
+.Circle-Blue-Clare-intern{
+    background-color: #9CE8FF;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+    left: 12px; 
+}
+
+.Circle-Red{
+    background-color: orange;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    
+}
+.Circle-Yellow{
+    background-color: yellow;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    
+}
+.Cirlce_Yellow_oscure{
+ background-color: #7c850e;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    right: -2px;
+
+}
+
+
+.Flex__Circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:1rem;
+}
+
+.Contenedor_Nombre-poke{
+    display: flex;
+    align-items: center;
+   
+}
+.Nombre_Poke{
+   
+    background-color: rgb(241, 236, 236);
+    border-radius: 5rem;
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Tag_Pokemon{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Main Area inico */
+
+.Section1__Main{
+    display: flex;
+    justify-content: center;
+}
+
+.Contenedor_Cuadrado{
+    margin-top: 20px;
+}
+.Cuadrado{
+    width: 20rem; 
+    height: 20rem; 
+    border: 3px solid rgba(235, 226, 226, 0.849); 
+    background: #428bca;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+   }
+   
+   .Huevo{
+   position: relative;
+   top: -5px;
+  left: 27px;
+ 
+
+    width: 13rem;
+    height: 20rem;
+   /* background-color: #5cb85c;*/
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    
+    transform: rotate(314deg);
+   }
+
+   .Egg{
+    position: relative;
+    top: 47px;
+    left: 14px;
+}
+
+ .Section2__Main{
+     display: flex;
+     justify-content: space-evenly;
+    align-content: center;
+   
+ }
+
+   .table{
+       margin-top: 7rem;
+       background-color: var(--Blanco);
+       border-radius: 2rem;
+       
+   }
+.Table_colums{
+    column-count: 4
+}
+
+.Contenedor_Movs{
+    max-height: 50rem;
+    max-width: 50rem;
+   
+
+}
+
+.Mov_table{
+    text-align: center;
+    border-style: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(white, yellow);
+    
+    ;
+    
+}
+
+.Stat{
+    text-align: center;
+}
+ 
+
+
+.Footer_clas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 135px 135px
+
+   
+}
+.Footer{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20rem;
+}
+.CircleB{
+    width: 120px;
+    height: 120px;
+    background: black;
+    border-radius: 50%
+
+}
+
+.cross {
+    background: black;
+    height: 110px;
+    position: relative;
+    width: 35px;
+  }
+  .cross:after {
+    background: black;
+    content: "";
+    height: 32px;
+    left: -40px;
+    position: absolute;
+    top: 38px;
+    width: 115px;
+    
+  }
+
+  
+  .space-invader {
+    box-shadow: 0 0 0 1em red,
+    0 1em 0 1em red,
+    -2.5em 1.5em 0 .5em red,
+    2.5em 1.5em 0 .5em red,
+    -3em -3em 0 0 red,
+    3em -3em 0 0 red,
+    -2em -2em 0 0 red,
+    2em -2em 0 0 red,
+    -3em -1em 0 0 red,
+    -2em -1em 0 0 red,
+    2em -1em 0 0 red,
+    3em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -3em 0 0 0 red,
+    3em 0 0 0 red,
+    4em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em 1em 0 0 red,
+    4em 1em 0 0 red,
+    5em 1em 0 0 red,
+    -5em 2em 0 0 red,
+    5em 2em 0 0 red,
+    -5em 3em 0 0 red,
+    -3em 3em 0 0 red,
+    3em 3em 0 0 red,
+    5em 3em 0 0 red,
+    -2em 4em 0 0 red,
+    -1em 4em 0 0 red,
+    1em 4em 0 0 red,
+    2em 4em 0 0 red;
+    background: red;
+    width: 11px;
+    height: 12px;
+    overflow: hidden;
+    margin:41px 0 65px 53px;
+  }
